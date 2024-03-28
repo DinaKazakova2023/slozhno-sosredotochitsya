@@ -25,20 +25,19 @@
 }
 
 @media (prefers-color-scheme: light) {
-
   .decorated {
     display: none;
   }
 
-:root .theme_light {
-  --bg-color: #fff1f7;
-  --header_title: #353430;
-  --accent-color: #353430;
-  --bg-text: #ff8dcb;
-  --logo-color: #ffc2e6;
-  --content-text-color: #353430;
-  --text-font: "IBM Plex mono", sans-serif;
-  --text-size: 18px;
-  --bg-image: url(../images/cover-image-light.png);
-}
+  :root .theme_light {
+    --bg-color: #fff1f7;
+    --header_title: #353430;
+    --accent-color: #353430;
+    --bg-text: #ff8dcb;
+    --logo-color: #ffc2e6;
+    --content-text-color: #353430;
+    --text-font: "IBM Plex mono", sans-serif;
+    --text-size: 18px;
+    --bg-image: url(../images/cover-image-light.png);
+  }
 }
