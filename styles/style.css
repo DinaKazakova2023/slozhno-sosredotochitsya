@@ -106,11 +106,11 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid /* var(--accent-color)*/ currentColor;
+  border-bottom: 1px solid currentColor;
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid /* var(--accent-color) */ currentColor;
+  outline: 1px solid currentColor;
   pointer-events: none;
   cursor: pointer;
 }
@@ -188,7 +188,7 @@
 }
 
 .link:hover {
-  border-bottom: 1px solid /* var(--content-text-color) */ currentColor;
+  border-bottom: 1px solid currentColor;
   text-underline-offset: 3px;
 }
 
@@ -197,13 +197,17 @@
 }
 
 .link:focus-visible {
-  outline: 1px solid /* var(--content-text-color) */ currentColor;
+  outline: 1px solid currentColor;
 }
 
 .content {
   color: var(--content-text-color);
   line-height: 23.4px;
   font-size: var(--text-size);
+}
+
+.content:not(:last-of-type) {
+  margin-bottom: 10px;
 }
 
 .content-box {
